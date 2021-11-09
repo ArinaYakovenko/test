@@ -84,8 +84,8 @@ field=(r1+n1+b1+q+k+b2+n2+r2+'\n'
 #1   2   3   4   5   6   7   8
 print(field)
 #start
-stope='start'
-while stope!='stop':
+first=input()
+while first=='start':
    figura=input('chose a figure - ') #figure name
    x1=int(input()) 
    y1=int(input()) 
