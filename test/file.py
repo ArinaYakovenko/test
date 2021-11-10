@@ -26,3 +26,10 @@ if ((a+b==c)or(a+c==b)or(b+c==a)):
     print('yes')
 else:
     print('ERROR')
+
+#Lesenka
+n=int(input())
+for i in range(1,n+1):
+    for i2 in range(1,i+1):
+        print(i2,sep='', end='')
+    print()
