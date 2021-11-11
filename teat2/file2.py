@@ -25,7 +25,7 @@ print(summa)
 #test number 4
 start=0
 for i in range(start, 9425+1):
-       if i%2==0:
+       if i%2!=0:
            start*=i
 print(start)
 
