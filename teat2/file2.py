@@ -22,3 +22,17 @@ for i in range(0, 14+1):
     summa+=i
 print(summa)
 
+#test number 4
+start=0
+for i in range(start, 9425+1):
+       if i%2==0:
+           start*=i
+print(start)
+
+#test number 5
+a=[]
+for i in range(54, 9184+1):
+    if i%5==0:
+        a.append(i)
+print(a)
+
