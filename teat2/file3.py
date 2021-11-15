@@ -23,10 +23,10 @@ for i in range(min, max+1, shag):
 
 #test number 4
 from random import randint
-random=randint(1,13)
-a=11
+random=randint(1,100)
+a=1
 pop=int(input('Відгадайте число! '))
-while pop !=random and a!=20:
+while pop !=random and a!=10:
     print('Спробуй знову:( ')
     if pop == random:
         print('Ви виграли!')
