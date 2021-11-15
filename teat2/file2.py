@@ -9,7 +9,7 @@ if b>0:
     d.append(b)
 if c>0:
     d.append(c)
-print(d)
+print(len(d))
 
 #test number 2
 for i in range(1, 497+1):
