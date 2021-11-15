@@ -14,5 +14,6 @@ list.append(to_list)
 print(list)
 
 #test number 4
-list=[1, 23, 5, 10]
-print(max(list)/len(list))
+def useless(s):
+    print(max(s)/len(s))
+useless([1, 3, 6, 8, 9])
